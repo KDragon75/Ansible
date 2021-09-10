@@ -4,5 +4,5 @@
     tasks:
       - name: Copy hello_world.txt to c:\
         copy:
-          - content: hello worldn
+          - content: Hello Worldn
             dest: c:\\
