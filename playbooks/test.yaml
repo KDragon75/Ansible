@@ -1,8 +1,7 @@
 ---
-  - name: Hello World
-    hosts: DESKTOP-48CFMOF
-    tasks:
-      - name: Copy hello_world.txt to c:\
-        copy:
-          - content: Hello Worlddn
-            dest: c:\\
+- name: This is a hello-world example
+  tasks:
+    - name: Create a file called 'c:\testfile.txt' with the content 'hello world'.
+      copy:
+        content: hello worldn
+        dest: c:\\testfile.txt
