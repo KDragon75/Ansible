@@ -1,0 +1,8 @@
+---
+  - name: Hello World
+    hosts: DESKTOP-48CFMOF
+    tasks:
+      - name: Copy hello_world.txt to c:\
+        copy:
+          - content: hello worldn
+            dest: c:\
