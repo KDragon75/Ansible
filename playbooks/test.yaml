@@ -5,4 +5,4 @@
     - name: Create a file called 'c:\testfile.txt' with the content 'hello world'.
       win_copy:
         content: hello worldn
-        dest: c:\\testfile.txt
+        dest: c:\testfile.txt
